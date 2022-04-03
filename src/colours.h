@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#ifndef _config_h
-#define _config_h
+#ifndef _colours_h
+#define _colours_h
 
 void printColourGrid();
 
