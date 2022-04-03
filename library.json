@@ -1,0 +1,27 @@
+{
+    "name": "ui_io",
+    "version": "0.0.4",
+    "description": "term io.",
+    "keywords": "",
+    "repository":
+    {
+      "type": "git",
+      "url": "git@github.com:home-controller/ui_io.git"
+    },
+    "authors":
+    [
+      {
+        "name": "jmnc2",
+        "email": "49760581+jmnc2@users.noreply.github.com",
+        "url": "https://github.com/jmnc2/pinIO",
+        "maintainer": true
+
+      }
+    ],
+    "dependencies": {
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/jmnc2",
+    "frameworks": "*",
+    "platforms": "*"
+  }
