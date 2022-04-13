@@ -1,6 +1,6 @@
 {
     "name": "ui_io",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "term io.",
     "keywords": "",
     "repository":
@@ -13,7 +13,7 @@
       {
         "name": "jmnc2",
         "email": "49760581+jmnc2@users.noreply.github.com",
-        "url": "https://github.com/jmnc2/pinIO",
+        "url": "https://github.com/jmnc2",
         "maintainer": true
 
       }
@@ -21,7 +21,7 @@
     "dependencies": {
     },
     "license": "MIT",
-    "homepage": "https://github.com/jmnc2",
+    "homepage": "https://github.com/home-controller/ui_io",
     "frameworks": "*",
     "platforms": "*"
   }
