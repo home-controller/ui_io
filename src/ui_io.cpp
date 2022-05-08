@@ -1,6 +1,5 @@
 #include "ui_io.h"
 #include <Arduino.h> 
-//#include <wire.h> 
 byte indent = 0;
 boolean lastLn = false;
 bool quiteMode = false;

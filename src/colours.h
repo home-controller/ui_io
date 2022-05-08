@@ -10,7 +10,7 @@
  */
 #ifndef _colours_h
 #define _colours_h
-
+;
 void printColourGrid();
 
 
