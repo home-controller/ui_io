@@ -40,7 +40,7 @@ void io_printStop_side();
 void io_printTimeElapsed();
 
 void io_printPrePad_n( byte x, bool = false );
-
+void io_print_nb_f(byte x, bool coma);
 
 
 #endif
