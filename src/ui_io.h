@@ -35,8 +35,16 @@ extern bool quiteMode;
 #define termResetColour "\e[37;48m"
 #define termReset "\e[37;48m\e[0m\r\n"
 
+#define vt100_red  "\e[31m"
+#define vt100_redB  "\e[91m"
 #define vt100_green  "\e[32;48m"
+#define vt100_yellow  "\e[33m"
+
+#define vtRed io_print(vt100_red);
+#define vtRedB io_print(vt100_redB);
 #define vtGreen io_print(vt100_green) 
+#define vtYellow io_print(vt100_yellow);
+
 #define vtResetColour io_print(termResetColour)
 //Rule
 //If the function has a forward declaration, put the default argument there. Otherwise, put them in the function definition. This is good practice and not a c rule I think
