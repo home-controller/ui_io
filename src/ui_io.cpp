@@ -14,10 +14,10 @@ void pDet(boolean b, boolean c) {//Print indent void pDet(boolean b = false, boo
 }
 
 /**
- * @brief print byte as binnary always print 8 bits including the zeros.
+ * @brief print byte as binary always print 8 bits including the zeros.
  *
  * @param x the number to print
- * @param coma print a , affter the number?
+ * @param coma print a , after the number?
  */
 void io_print_nb_f(byte x, bool coma) {
   char a[9];

@@ -1,6 +1,6 @@
 /**
  * @file colours.cpp
- * @author your name (you@domain.com)
+ * @author jmnc2 (you@domain.com)
  * @brief Print out a grid of colours on the tty.
  * @version 0.1
  * @date 2022-04-03
@@ -26,9 +26,9 @@ void setString(char r[], const char s[])
 }
 
 void printColourGrid(){
-// 30-37: forground colour, 40-47:background. 90-97: bright foreground, 100-107: bright background
+// 30-37: foreground colour, 40-47:background. 90-97: bright foreground, 100-107: bright background
 // 0:black, 1:red, 2:green, 3:yellow, 4:blue, 5:magenta, 6:cyan, 7:white
-// efects: 0=reset, 1=bold, 2=faint, 3=Italic, 4=underlined, 5=flash, 7=Reverse(swap forground with background), 8=Hidden(passwords), 9=Strikethrough
+// effects: 0=reset, 1=bold, 2=faint, 3=Italic, 4=underlined, 5=flash, 7=Reverse(swap foreground with background), 8=Hidden(passwords), 9=Strikethrough
 #define maxFGColour 7
 #define termResetColour "\e[37;48m"
 #define termReset "\e[37;48m\e[0m\r\n"

@@ -1,6 +1,6 @@
 /**
  * @file colours.h
- * @author your name (you@domain.com)
+ * @author jmnc2 (you@domain.com)
  * @brief 
  * @version 0.3
  * @date 2022-04-03
