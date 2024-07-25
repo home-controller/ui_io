@@ -12,8 +12,8 @@ extern bool quiteMode;
 
 #define io_l io_print( "file:" ); Serial.print( __FILE__ ); io_print( ", Line:" ); Serial.println( __LINE__ );
 
-#define io_println(S) pDet(true); Serial.println(F(S) ) // print a string stored in program flash insted of ram.
-#define io_ln lastLn = true; Serial.println() // print a string stored in program flash insted of ram.
+#define io_println(S) pDet(true); Serial.println(F(S) ) // print a string stored in program flash instead of ram.
+#define io_ln lastLn = true; Serial.println() // print a string stored in program flash instead of ram.
 #define io_print(S) pDet(); Serial.print(F(S) );
 #define io_println_n(N) pDet(true); Serial.println(N) //output a number
 #define io_print_n(N) pDet(); Serial.print(N) //output a number
