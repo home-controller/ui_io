@@ -10,4 +10,9 @@ As an example with my Nano board plugged in on /dev/ttyUSB0 and the serial speed
 stty -F /dev/ttyUSB0 38400 raw
 cat /dev/ttyUSB0
 ```
+
+cat returned after each line when I had 2 arduinos 1 each on /dev/ttyUSB0 and /dev/ttyUSB1 buf tail still worked.
+```
+tail -f /dev/
+```
 I can also use the cat command in another bash terminal to type to the Nano.
